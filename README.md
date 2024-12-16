@@ -46,7 +46,7 @@ cargo run -- <path_to_dataset>
 
 Example:
 
-cargo run -- data/grqc_collaboration.txt
+cargo run -- ./ca-GrQc.txt
 
 Output
 
@@ -60,23 +60,44 @@ Top Centrality Scores: Top 10 authors ranked by degree, betweenness, and eigenve
 
 Example:
 
-Graph loaded with 5242 nodes and 14496 edges.
-Number of connected components: 13
+Graph loaded with 5241 nodes and 14484 edges.
+Number of connected components: 354
 
 Top authors by degree centrality:
-Author 124: 32
-Author 223: 29
-...
+Author 21012: 81
+Author 21281: 79
+Author 22691: 77
+Author 12365: 77
+Author 9785: 68
+Author 6610: 68
+Author 21508: 67
+Author 17655: 66
+Author 2741: 65
+Author 19423: 63
 
 Top authors by betweenness centrality:
-Author 124: 10234
-Author 523: 8912
-...
+Author 22190: 47351
+Author 20255: 44274
+Author 23786: 44271
+Author 25534: 44271
+Author 2879: 43198
+Author 7885: 43195
+Author 4467: 42648
+Author 18379: 42065
+Author 855: 41444
+Author 4261: 41444
 
 Top authors by eigenvector centrality:
-Author 412: 34567
-Author 612: 29876
-...
+Author 21012: 155562
+Author 2741: 153575
+Author 12365: 153072
+Author 21508: 151194
+Author 9785: 150903
+Author 15003: 150408
+Author 25346: 149070
+Author 7956: 149067
+Author 14807: 149007
+Author 12781: 148881
 
 Visualization
 
