@@ -28,13 +28,16 @@ Rust (latest stable version)
 cargo build system
 
 The ArXiv GR-QC dataset (formatted as a text file where each line represents an edge as "node1 node2")
+https://snap.stanford.edu/data/ca-GrQc.html
 
 Steps
 
 Clone this repository:
 
-git clone <repository-url>
-cd grqc_centrality_analysis
+git clone https://github.com/lindsaaaaaay/ds210.git
+cd Project
+cd centrality_analysis
+cd src
 
 Build the project:
 
