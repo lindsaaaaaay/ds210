@@ -35,9 +35,7 @@ Steps
 Clone this repository:
 
 git clone https://github.com/lindsaaaaaay/ds210.git
-cd Project
-cd centrality_analysis
-cd src
+cd ds210/Project/centrality_analysis/src
 
 Build the project:
 
